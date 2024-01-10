@@ -1,5 +1,6 @@
-#/bin/bash
+#!/usr/bin/bash
 
+# Clone and update repo
 if [ ! -d bpi-r4 ]; then
   echo "Cloning repository..."
   git clone -b bpi-r4 https://github.com/dangowrt/openwrt bpi-r4
@@ -8,18 +9,21 @@ fi
 cd bpi-r4
 git pull
 
+# Link local files
+if [ ! -d files ]; then
+  ln -vs ../files files
+fi
+if [ ! -f .config ]; then
+  ln -vs ../scripts/.config .config
+fi
+echo "Build config:"
+cat .config
+
 # Update and install feeds
 echo "Updating feeds..."
 ./scripts/feeds update -a
 echo "Installing feeds..."
 ./scripts/feeds install -a
-
-# Download build config preset
-echo "Build config..."
-if [ ! -f .config ]; then
-  cp -v ../scripts/.config .config
-fi
-cat .config
 
 # Starting build...
 echo "Starting build..."
