@@ -6,7 +6,7 @@ This repository holds my a mini build environment for **Banana Pi BPI-R4** (base
 
 Snapshot builds are available at https://dl.pi0.io/openwrt/bpi-r4
 
-You can quickly download [sdcard image](openwrt-mediatek-filogic-bananapi_bpi-r4-sdcard.img.gz) and flash it to an SDCard to try (**Note:** Make sure to decompress `.gz` archive first!)
+You can quickly download [sdcard image](https://dl.pi0.io/openwrt/bpi-r4/targets/mediatek/filogic//openwrt-mediatek-filogic-bananapi_bpi-r4-sdcard.img.gz) and flash it to an SDCard to try (**Note:** Make sure to decompress `.gz` archive first!)
 
 ## Useful links
 
