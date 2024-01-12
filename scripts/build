@@ -7,7 +7,10 @@ if [ ! -d bpi-r4 ]; then
 fi
 
 cd bpi-r4
+
+git config pull.rebase true
 git pull
+git rev-parse --short HEAD
 
 # Link local files
 if [ ! -d files ]; then
