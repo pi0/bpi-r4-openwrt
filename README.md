@@ -1,5 +1,5 @@
 > [!NOTE]
-> Official [snapshots](https://downloads.openwrt.org/snapshots/targets/mediatek/filog) are now available! Also see [device page](https://openwrt.org/inbox/toh/sinovoip/bananapi_bpi-r4).
+> Official [snapshots](https://downloads.openwrt.org/snapshots/targets/mediatek/filogic/) are now available! Also, see [device page](https://openwrt.org/inbox/toh/sinovoip/bananapi_bpi-r4), [snapshot notes](https://openwrt.org/releases/snapshot) and [merge commit](https://git.openwrt.org/?p=openwrt/openwrt.git;a=commitdiff;h=f16dc4b42fb265affb2298e815a7ce0a13d60da6).
 
 # Banana Pi BPI-R4 OpenWrt Image
 
