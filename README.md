@@ -1,3 +1,6 @@
+> [!NOTE]
+> Official [snapshots](https://downloads.openwrt.org/snapshots/targets/mediatek/filog) are now available! Also see [device page](https://openwrt.org/inbox/toh/sinovoip/bananapi_bpi-r4).
+
 # Banana Pi BPI-R4 OpenWrt Image
 
 This repository holds my a mini build environment for **Banana Pi BPI-R4** (based on MediaTek MT7988/Filogic 880) temporary builds as there is no official one yet. Builds are  based on [openwrt/openwrt#14140](https://github.com/openwrt/openwrt/pull/14140).
